@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C3469572927D2F5007E6221 /* xslx_to_jsonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3469562927D2F5007E6221 /* xslx_to_jsonApp.swift */; };
+		5C3469592927D2F5007E6221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3469582927D2F5007E6221 /* ContentView.swift */; };
+		5C34695B2927D2F7007E6221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C34695A2927D2F7007E6221 /* Assets.xcassets */; };
+		5C34695E2927D2F7007E6221 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C34695D2927D2F7007E6221 /* Preview Assets.xcassets */; };
+		5C3469692927D2F7007E6221 /* xslx_to_jsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3469682927D2F7007E6221 /* xslx_to_jsonTests.swift */; };
+		5C3469732927D2F7007E6221 /* xslx_to_jsonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3469722927D2F7007E6221 /* xslx_to_jsonUITests.swift */; };
+		5C3469752927D2F7007E6221 /* xslx_to_jsonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3469742927D2F7007E6221 /* xslx_to_jsonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C3469652927D2F7007E6221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C34694B2927D2F5007E6221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C3469522927D2F5007E6221;
+			remoteInfo = "xslx to json";
+		};
+		5C34696F2927D2F7007E6221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C34694B2927D2F5007E6221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C3469522927D2F5007E6221;
+			remoteInfo = "xslx to json";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C3469532927D2F5007E6221 /* xslx to json.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xslx to json.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3469562927D2F5007E6221 /* xslx_to_jsonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xslx_to_jsonApp.swift; sourceTree = "<group>"; };
+		5C3469582927D2F5007E6221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C34695A2927D2F7007E6221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C34695D2927D2F7007E6221 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C34695F2927D2F7007E6221 /* xslx_to_json.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xslx_to_json.entitlements; sourceTree = "<group>"; };
+		5C3469642927D2F7007E6221 /* xslx to jsonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xslx to jsonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3469682927D2F7007E6221 /* xslx_to_jsonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xslx_to_jsonTests.swift; sourceTree = "<group>"; };
+		5C34696E2927D2F7007E6221 /* xslx to jsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xslx to jsonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3469722927D2F7007E6221 /* xslx_to_jsonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xslx_to_jsonUITests.swift; sourceTree = "<group>"; };
+		5C3469742927D2F7007E6221 /* xslx_to_jsonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xslx_to_jsonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C3469502927D2F5007E6221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3469612927D2F7007E6221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C34696B2927D2F7007E6221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C34694A2927D2F5007E6221 = {
+			isa = PBXGroup;
+			children = (
+				5C3469552927D2F5007E6221 /* xslx to json */,
+				5C3469672927D2F7007E6221 /* xslx to jsonTests */,
+				5C3469712927D2F7007E6221 /* xslx to jsonUITests */,
+				5C3469542927D2F5007E6221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C3469542927D2F5007E6221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C3469532927D2F5007E6221 /* xslx to json.app */,
+				5C3469642927D2F7007E6221 /* xslx to jsonTests.xctest */,
+				5C34696E2927D2F7007E6221 /* xslx to jsonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C3469552927D2F5007E6221 /* xslx to json */ = {
+			isa = PBXGroup;
+			children = (
+				5C3469562927D2F5007E6221 /* xslx_to_jsonApp.swift */,
+				5C3469582927D2F5007E6221 /* ContentView.swift */,
+				5C34695A2927D2F7007E6221 /* Assets.xcassets */,
+				5C34695F2927D2F7007E6221 /* xslx_to_json.entitlements */,
+				5C34695C2927D2F7007E6221 /* Preview Content */,
+			);
+			path = "xslx to json";
+			sourceTree = "<group>";
+		};
+		5C34695C2927D2F7007E6221 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5C34695D2927D2F7007E6221 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C3469672927D2F7007E6221 /* xslx to jsonTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C3469682927D2F7007E6221 /* xslx_to_jsonTests.swift */,
+			);
+			path = "xslx to jsonTests";
+			sourceTree = "<group>";
+		};
+		5C3469712927D2F7007E6221 /* xslx to jsonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C3469722927D2F7007E6221 /* xslx_to_jsonUITests.swift */,
+				5C3469742927D2F7007E6221 /* xslx_to_jsonUITestsLaunchTests.swift */,
+			);
+			path = "xslx to jsonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C3469522927D2F5007E6221 /* xslx to json */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3469782927D2F7007E6221 /* Build configuration list for PBXNativeTarget "xslx to json" */;
+			buildPhases = (
+				5C34694F2927D2F5007E6221 /* Sources */,
+				5C3469502927D2F5007E6221 /* Frameworks */,
+				5C3469512927D2F5007E6221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xslx to json";
+			productName = "xslx to json";
+			productReference = 5C3469532927D2F5007E6221 /* xslx to json.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C3469632927D2F7007E6221 /* xslx to jsonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C34697B2927D2F7007E6221 /* Build configuration list for PBXNativeTarget "xslx to jsonTests" */;
+			buildPhases = (
+				5C3469602927D2F7007E6221 /* Sources */,
+				5C3469612927D2F7007E6221 /* Frameworks */,
+				5C3469622927D2F7007E6221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C3469662927D2F7007E6221 /* PBXTargetDependency */,
+			);
+			name = "xslx to jsonTests";
+			productName = "xslx to jsonTests";
+			productReference = 5C3469642927D2F7007E6221 /* xslx to jsonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C34696D2927D2F7007E6221 /* xslx to jsonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C34697E2927D2F7007E6221 /* Build configuration list for PBXNativeTarget "xslx to jsonUITests" */;
+			buildPhases = (
+				5C34696A2927D2F7007E6221 /* Sources */,
+				5C34696B2927D2F7007E6221 /* Frameworks */,
+				5C34696C2927D2F7007E6221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C3469702927D2F7007E6221 /* PBXTargetDependency */,
+			);
+			name = "xslx to jsonUITests";
+			productName = "xslx to jsonUITests";
+			productReference = 5C34696E2927D2F7007E6221 /* xslx to jsonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C34694B2927D2F5007E6221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					5C3469522927D2F5007E6221 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					5C3469632927D2F7007E6221 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 5C3469522927D2F5007E6221;
+					};
+					5C34696D2927D2F7007E6221 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 5C3469522927D2F5007E6221;
+					};
+				};
+			};
+			buildConfigurationList = 5C34694E2927D2F5007E6221 /* Build configuration list for PBXProject "xslx to json" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C34694A2927D2F5007E6221;
+			productRefGroup = 5C3469542927D2F5007E6221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C3469522927D2F5007E6221 /* xslx to json */,
+				5C3469632927D2F7007E6221 /* xslx to jsonTests */,
+				5C34696D2927D2F7007E6221 /* xslx to jsonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C3469512927D2F5007E6221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C34695E2927D2F7007E6221 /* Preview Assets.xcassets in Resources */,
+				5C34695B2927D2F7007E6221 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3469622927D2F7007E6221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C34696C2927D2F7007E6221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C34694F2927D2F5007E6221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3469592927D2F5007E6221 /* ContentView.swift in Sources */,
+				5C3469572927D2F5007E6221 /* xslx_to_jsonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3469602927D2F7007E6221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3469692927D2F7007E6221 /* xslx_to_jsonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C34696A2927D2F7007E6221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3469752927D2F7007E6221 /* xslx_to_jsonUITestsLaunchTests.swift in Sources */,
+				5C3469732927D2F7007E6221 /* xslx_to_jsonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C3469662927D2F7007E6221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C3469522927D2F5007E6221 /* xslx to json */;
+			targetProxy = 5C3469652927D2F7007E6221 /* PBXContainerItemProxy */;
+		};
+		5C3469702927D2F7007E6221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C3469522927D2F5007E6221 /* xslx to json */;
+			targetProxy = 5C34696F2927D2F7007E6221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C3469762927D2F7007E6221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C3469772927D2F7007E6221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5C3469792927D2F7007E6221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "xslx to json/xslx_to_json.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"xslx to json/Preview Content\"";
+				DEVELOPMENT_TEAM = JQ9WMKDP74;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.approppo.xslx-to-json.xslx-to-json";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5C34697A2927D2F7007E6221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "xslx to json/xslx_to_json.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"xslx to json/Preview Content\"";
+				DEVELOPMENT_TEAM = JQ9WMKDP74;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.approppo.xslx-to-json.xslx-to-json";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5C34697C2927D2F7007E6221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JQ9WMKDP74;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.approppo.xslx-to-json.xslx-to-jsonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xslx to json.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xslx to json";
+			};
+			name = Debug;
+		};
+		5C34697D2927D2F7007E6221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JQ9WMKDP74;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.approppo.xslx-to-json.xslx-to-jsonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xslx to json.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xslx to json";
+			};
+			name = Release;
+		};
+		5C34697F2927D2F7007E6221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JQ9WMKDP74;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.approppo.xslx-to-json.xslx-to-jsonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "xslx to json";
+			};
+			name = Debug;
+		};
+		5C3469802927D2F7007E6221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JQ9WMKDP74;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.approppo.xslx-to-json.xslx-to-jsonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "xslx to json";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C34694E2927D2F5007E6221 /* Build configuration list for PBXProject "xslx to json" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3469762927D2F7007E6221 /* Debug */,
+				5C3469772927D2F7007E6221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C3469782927D2F7007E6221 /* Build configuration list for PBXNativeTarget "xslx to json" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3469792927D2F7007E6221 /* Debug */,
+				5C34697A2927D2F7007E6221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C34697B2927D2F7007E6221 /* Build configuration list for PBXNativeTarget "xslx to jsonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C34697C2927D2F7007E6221 /* Debug */,
+				5C34697D2927D2F7007E6221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C34697E2927D2F7007E6221 /* Build configuration list for PBXNativeTarget "xslx to jsonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C34697F2927D2F7007E6221 /* Debug */,
+				5C3469802927D2F7007E6221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C34694B2927D2F5007E6221 /* Project object */;
+}
