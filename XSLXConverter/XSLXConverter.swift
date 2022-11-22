@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct xslx_to_jsonApp: App {
+struct XSLXConverter: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

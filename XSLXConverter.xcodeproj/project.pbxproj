@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C3469572927D2F5007E6221 /* xslx_to_jsonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3469562927D2F5007E6221 /* xslx_to_jsonApp.swift */; };
+		5C285F02292C0F960083E4E3 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C285F01292C0F960083E4E3 /* Converter.swift */; };
+		5C285F04292C1BB30083E4E3 /* OSLog+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C285F03292C1BB30083E4E3 /* OSLog+extensions.swift */; };
+		5C3469572927D2F5007E6221 /* XSLXConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3469562927D2F5007E6221 /* XSLXConverter.swift */; };
 		5C3469592927D2F5007E6221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3469582927D2F5007E6221 /* ContentView.swift */; };
 		5C34695B2927D2F7007E6221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C34695A2927D2F7007E6221 /* Assets.xcassets */; };
-		5C34695E2927D2F7007E6221 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C34695D2927D2F7007E6221 /* Preview Assets.xcassets */; };
 		5C3469692927D2F7007E6221 /* xslx_to_jsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3469682927D2F7007E6221 /* xslx_to_jsonTests.swift */; };
 		5C3469732927D2F7007E6221 /* xslx_to_jsonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3469722927D2F7007E6221 /* xslx_to_jsonUITests.swift */; };
 		5C3469752927D2F7007E6221 /* xslx_to_jsonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3469742927D2F7007E6221 /* xslx_to_jsonUITestsLaunchTests.swift */; };
+		5C3469832927D5D0007E6221 /* CoreXLSX in Frameworks */ = {isa = PBXBuildFile; productRef = 5C3469822927D5D0007E6221 /* CoreXLSX */; };
+		5C34698B29280A00007E6221 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C34698A29280A00007E6221 /* Data+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +37,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C3469532927D2F5007E6221 /* xslx to json.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xslx to json.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C3469562927D2F5007E6221 /* xslx_to_jsonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xslx_to_jsonApp.swift; sourceTree = "<group>"; };
+		5C285F01292C0F960083E4E3 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		5C285F03292C1BB30083E4E3 /* OSLog+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSLog+extensions.swift"; sourceTree = "<group>"; };
+		5C3469532927D2F5007E6221 /* XSLXConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSLXConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3469562927D2F5007E6221 /* XSLXConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSLXConverter.swift; sourceTree = "<group>"; };
 		5C3469582927D2F5007E6221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C34695A2927D2F7007E6221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5C34695D2927D2F7007E6221 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5C34695F2927D2F7007E6221 /* xslx_to_json.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xslx_to_json.entitlements; sourceTree = "<group>"; };
-		5C3469642927D2F7007E6221 /* xslx to jsonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xslx to jsonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C34695F2927D2F7007E6221 /* XSLXConverter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XSLXConverter.entitlements; sourceTree = "<group>"; };
+		5C3469642927D2F7007E6221 /* XSLXConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSLXConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3469682927D2F7007E6221 /* xslx_to_jsonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xslx_to_jsonTests.swift; sourceTree = "<group>"; };
-		5C34696E2927D2F7007E6221 /* xslx to jsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xslx to jsonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C34696E2927D2F7007E6221 /* XSLXConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSLXConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3469722927D2F7007E6221 /* xslx_to_jsonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xslx_to_jsonUITests.swift; sourceTree = "<group>"; };
 		5C3469742927D2F7007E6221 /* xslx_to_jsonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xslx_to_jsonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C34698A29280A00007E6221 /* Data+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3469832927D5D0007E6221 /* CoreXLSX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,10 +78,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C18800A292CC81A00A26FB1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5C34698A29280A00007E6221 /* Data+Extensions.swift */,
+				5C285F03292C1BB30083E4E3 /* OSLog+extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		5C34694A2927D2F5007E6221 = {
 			isa = PBXGroup;
 			children = (
-				5C3469552927D2F5007E6221 /* xslx to json */,
+				5C3469552927D2F5007E6221 /* XSLXConverter */,
 				5C3469672927D2F7007E6221 /* xslx to jsonTests */,
 				5C3469712927D2F7007E6221 /* xslx to jsonUITests */,
 				5C3469542927D2F5007E6221 /* Products */,
@@ -85,31 +100,24 @@
 		5C3469542927D2F5007E6221 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C3469532927D2F5007E6221 /* xslx to json.app */,
-				5C3469642927D2F7007E6221 /* xslx to jsonTests.xctest */,
-				5C34696E2927D2F7007E6221 /* xslx to jsonUITests.xctest */,
+				5C3469532927D2F5007E6221 /* XSLXConverter.app */,
+				5C3469642927D2F7007E6221 /* XSLXConverterTests.xctest */,
+				5C34696E2927D2F7007E6221 /* XSLXConverterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C3469552927D2F5007E6221 /* xslx to json */ = {
+		5C3469552927D2F5007E6221 /* XSLXConverter */ = {
 			isa = PBXGroup;
 			children = (
-				5C3469562927D2F5007E6221 /* xslx_to_jsonApp.swift */,
+				5C3469562927D2F5007E6221 /* XSLXConverter.swift */,
 				5C3469582927D2F5007E6221 /* ContentView.swift */,
+				5C285F01292C0F960083E4E3 /* Converter.swift */,
 				5C34695A2927D2F7007E6221 /* Assets.xcassets */,
-				5C34695F2927D2F7007E6221 /* xslx_to_json.entitlements */,
-				5C34695C2927D2F7007E6221 /* Preview Content */,
+				5C34695F2927D2F7007E6221 /* XSLXConverter.entitlements */,
+				5C18800A292CC81A00A26FB1 /* Extensions */,
 			);
-			path = "xslx to json";
-			sourceTree = "<group>";
-		};
-		5C34695C2927D2F7007E6221 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				5C34695D2927D2F7007E6221 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = XSLXConverter;
 			sourceTree = "<group>";
 		};
 		5C3469672927D2F7007E6221 /* xslx to jsonTests */ = {
@@ -132,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C3469522927D2F5007E6221 /* xslx to json */ = {
+		5C3469522927D2F5007E6221 /* XSLXConverter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C3469782927D2F7007E6221 /* Build configuration list for PBXNativeTarget "xslx to json" */;
+			buildConfigurationList = 5C3469782927D2F7007E6221 /* Build configuration list for PBXNativeTarget "XSLXConverter" */;
 			buildPhases = (
 				5C34694F2927D2F5007E6221 /* Sources */,
 				5C3469502927D2F5007E6221 /* Frameworks */,
@@ -144,14 +152,17 @@
 			);
 			dependencies = (
 			);
-			name = "xslx to json";
+			name = XSLXConverter;
+			packageProductDependencies = (
+				5C3469822927D5D0007E6221 /* CoreXLSX */,
+			);
 			productName = "xslx to json";
-			productReference = 5C3469532927D2F5007E6221 /* xslx to json.app */;
+			productReference = 5C3469532927D2F5007E6221 /* XSLXConverter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5C3469632927D2F7007E6221 /* xslx to jsonTests */ = {
+		5C3469632927D2F7007E6221 /* XSLXConverterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C34697B2927D2F7007E6221 /* Build configuration list for PBXNativeTarget "xslx to jsonTests" */;
+			buildConfigurationList = 5C34697B2927D2F7007E6221 /* Build configuration list for PBXNativeTarget "XSLXConverterTests" */;
 			buildPhases = (
 				5C3469602927D2F7007E6221 /* Sources */,
 				5C3469612927D2F7007E6221 /* Frameworks */,
@@ -162,14 +173,14 @@
 			dependencies = (
 				5C3469662927D2F7007E6221 /* PBXTargetDependency */,
 			);
-			name = "xslx to jsonTests";
+			name = XSLXConverterTests;
 			productName = "xslx to jsonTests";
-			productReference = 5C3469642927D2F7007E6221 /* xslx to jsonTests.xctest */;
+			productReference = 5C3469642927D2F7007E6221 /* XSLXConverterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5C34696D2927D2F7007E6221 /* xslx to jsonUITests */ = {
+		5C34696D2927D2F7007E6221 /* XSLXConverterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C34697E2927D2F7007E6221 /* Build configuration list for PBXNativeTarget "xslx to jsonUITests" */;
+			buildConfigurationList = 5C34697E2927D2F7007E6221 /* Build configuration list for PBXNativeTarget "XSLXConverterUITests" */;
 			buildPhases = (
 				5C34696A2927D2F7007E6221 /* Sources */,
 				5C34696B2927D2F7007E6221 /* Frameworks */,
@@ -180,9 +191,9 @@
 			dependencies = (
 				5C3469702927D2F7007E6221 /* PBXTargetDependency */,
 			);
-			name = "xslx to jsonUITests";
+			name = XSLXConverterUITests;
 			productName = "xslx to jsonUITests";
-			productReference = 5C34696E2927D2F7007E6221 /* xslx to jsonUITests.xctest */;
+			productReference = 5C34696E2927D2F7007E6221 /* XSLXConverterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5C34694E2927D2F5007E6221 /* Build configuration list for PBXProject "xslx to json" */;
+			buildConfigurationList = 5C34694E2927D2F5007E6221 /* Build configuration list for PBXProject "XSLXConverter" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,13 +228,16 @@
 				Base,
 			);
 			mainGroup = 5C34694A2927D2F5007E6221;
+			packageReferences = (
+				5C3469812927D5D0007E6221 /* XCRemoteSwiftPackageReference "CoreXLSX" */,
+			);
 			productRefGroup = 5C3469542927D2F5007E6221 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C3469522927D2F5007E6221 /* xslx to json */,
-				5C3469632927D2F7007E6221 /* xslx to jsonTests */,
-				5C34696D2927D2F7007E6221 /* xslx to jsonUITests */,
+				5C3469522927D2F5007E6221 /* XSLXConverter */,
+				5C3469632927D2F7007E6221 /* XSLXConverterTests */,
+				5C34696D2927D2F7007E6221 /* XSLXConverterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,7 +247,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C34695E2927D2F7007E6221 /* Preview Assets.xcassets in Resources */,
 				5C34695B2927D2F7007E6221 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C3469592927D2F5007E6221 /* ContentView.swift in Sources */,
-				5C3469572927D2F5007E6221 /* xslx_to_jsonApp.swift in Sources */,
+				5C34698B29280A00007E6221 /* Data+Extensions.swift in Sources */,
+				5C3469572927D2F5007E6221 /* XSLXConverter.swift in Sources */,
+				5C285F04292C1BB30083E4E3 /* OSLog+extensions.swift in Sources */,
+				5C285F02292C0F960083E4E3 /* Converter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		5C3469662927D2F7007E6221 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C3469522927D2F5007E6221 /* xslx to json */;
+			target = 5C3469522927D2F5007E6221 /* XSLXConverter */;
 			targetProxy = 5C3469652927D2F7007E6221 /* PBXContainerItemProxy */;
 		};
 		5C3469702927D2F7007E6221 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C3469522927D2F5007E6221 /* xslx to json */;
+			target = 5C3469522927D2F5007E6221 /* XSLXConverter */;
 			targetProxy = 5C34696F2927D2F7007E6221 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -415,12 +431,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "xslx to json/xslx_to_json.entitlements";
+				CODE_SIGN_ENTITLEMENTS = XSLXConverter/XSLXConverter.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"xslx to json/Preview Content\"";
-				DEVELOPMENT_TEAM = JQ9WMKDP74;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 538P9E4NEF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -430,7 +447,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.approppo.xslx-to-json.xslx-to-json";
+				PRODUCT_BUNDLE_IDENTIFIER = solutions.twenty1.XSLXConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -442,12 +459,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "xslx to json/xslx_to_json.entitlements";
+				CODE_SIGN_ENTITLEMENTS = XSLXConverter/XSLXConverter.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"xslx to json/Preview Content\"";
-				DEVELOPMENT_TEAM = JQ9WMKDP74;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 538P9E4NEF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -457,7 +475,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.approppo.xslx-to-json.xslx-to-json";
+				PRODUCT_BUNDLE_IDENTIFIER = solutions.twenty1.XSLXConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -479,7 +497,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xslx to json.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xslx to json";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XSLXConverter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XSLXConverter";
 			};
 			name = Debug;
 		};
@@ -498,7 +516,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xslx to json.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xslx to json";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XSLXConverter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XSLXConverter";
 			};
 			name = Release;
 		};
@@ -539,7 +557,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C34694E2927D2F5007E6221 /* Build configuration list for PBXProject "xslx to json" */ = {
+		5C34694E2927D2F5007E6221 /* Build configuration list for PBXProject "XSLXConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C3469762927D2F7007E6221 /* Debug */,
@@ -548,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C3469782927D2F7007E6221 /* Build configuration list for PBXNativeTarget "xslx to json" */ = {
+		5C3469782927D2F7007E6221 /* Build configuration list for PBXNativeTarget "XSLXConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C3469792927D2F7007E6221 /* Debug */,
@@ -557,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C34697B2927D2F7007E6221 /* Build configuration list for PBXNativeTarget "xslx to jsonTests" */ = {
+		5C34697B2927D2F7007E6221 /* Build configuration list for PBXNativeTarget "XSLXConverterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C34697C2927D2F7007E6221 /* Debug */,
@@ -566,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C34697E2927D2F7007E6221 /* Build configuration list for PBXNativeTarget "xslx to jsonUITests" */ = {
+		5C34697E2927D2F7007E6221 /* Build configuration list for PBXNativeTarget "XSLXConverterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C34697F2927D2F7007E6221 /* Debug */,
@@ -576,6 +594,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C3469812927D5D0007E6221 /* XCRemoteSwiftPackageReference "CoreXLSX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/CoreXLSX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C3469822927D5D0007E6221 /* CoreXLSX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C3469812927D5D0007E6221 /* XCRemoteSwiftPackageReference "CoreXLSX" */;
+			productName = CoreXLSX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5C34694B2927D2F5007E6221 /* Project object */;
 }
