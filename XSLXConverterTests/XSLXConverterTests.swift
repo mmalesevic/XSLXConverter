@@ -6,9 +6,9 @@
 //
 
 import XCTest
-@testable import xslx_to_json
+@testable import XSLXConverter
 
-final class xslx_to_jsonTests: XCTestCase {
+final class XSLXConverterTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

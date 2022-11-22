@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class xslx_to_jsonUITestsLaunchTests: XCTestCase {
+final class XSLXConverterUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
